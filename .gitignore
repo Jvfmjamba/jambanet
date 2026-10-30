@@ -1,0 +1,27 @@
+# Build artifacts
+build/
+build_tmp/
+dist/
+*.spec
+*.pyc
+__pycache__/
+
+# Sensitive data
+nodes.json
+*.key
+*.pem
+id_rsa
+
+# Reports
+report_*.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
